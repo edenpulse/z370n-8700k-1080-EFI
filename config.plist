@@ -448,7 +448,7 @@
 		<key>BoardManufacturer</key>
 		<string>Apple Inc.</string>
 		<key>BoardSerialNumber</key>
-		<string>C02LTWM4F8JCMB294</string>
+		<string>XX-Masked-Insert-Yours-XX</string>
 		<key>BoardType</key>
 		<integer>10</integer>
 		<key>BoardVersion</key>
@@ -476,9 +476,9 @@
 		<key>ProductName</key>
 		<string>iMac18,3</string>
 		<key>SerialNumber</key>
-		<string>>XX-Masked-Insert-Yours-XX</string>
+		<string>XX-Masked-Insert-Yours-XX</string>
 		<key>SmUUID</key>
-		<string>>XX-Masked-Insert-Yours-XX</string>
+		<string>XX-Masked-Insert-Yours-XX</string>
 		<key>Version</key>
 		<string>1.0</string>
 	</dict>
