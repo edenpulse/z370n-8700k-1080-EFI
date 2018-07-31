@@ -186,8 +186,6 @@
 	</dict>
 	<key>CPU</key>
 	<dict>
-		<key>Type</key>
-		<string>0x0501</string>
 		<key>UseARTFrequency</key>
 		<false/>
 	</dict>
@@ -211,7 +209,7 @@
 		<key>Audio</key>
 		<dict>
 			<key>Inject</key>
-			<string>7</string>
+			<integer>7</integer>
 			<key>ResetHDA</key>
 			<true/>
 		</dict>
@@ -236,14 +234,18 @@
 	<dict>
 		<key>Hide</key>
 		<array>
-			<string>\EFI\BOOT\BOOTX64.EFI</string>
+			<string>HD(1,GPT,102573D7-15CA-4274-A52B-1CB2505312C3,0x28,0x64000)</string>
+			<string>HD(2,GPT,D4649F72-48E4-4162-BE31-10245526F071,0x64028,0x746B2430)</string>
+			<string>HD(3,GPT,525E4E84-AADF-45DC-AE47-A1AA4054E62D,0x74756458,0x74672430)</string>
+			<string>HD(1,GPT,9CF96153-FB65-47B5-B9EA-1F1CD3D77F81,0x800,0x37E42800)</string>
+			<string>HD(1,GPT,88C680C7-D302-428A-B85D-83E9F925D807,0x28,0x64000)</string>
+			<string>HD(1,GPT,273E21F1-DF11-4E81-B219-9B034AAC6DD1,0x800,0xF9800)</string>
+			<string>HD(3,GPT,0F16B371-FDD4-48FF-871E-0FC2331BF897,0x12C000,0x8000)</string>
+			<string>HD(4,GPT,EEB503A3-0CC3-4415-808D-C9F999E24411,0x134000,0x3A252000)</string>
 			<string>Preboot</string>
-			<string>TARS</string>
-			<string>KIPP</string>
-			<string>Nebulae</string>
-			<string>Endurance</string>
-			<string>Recovery</string>
-			<string>Legacy</string>
+			<string>Filevault</string>
+			<string>Windows</string>
+			<string>\EFI\BOOT\BOOTX64.EFI</string>
 		</array>
 		<key>Language</key>
 		<string>fr:0</string>
@@ -262,13 +264,15 @@
 		<dict>
 			<key>Entries</key>
 			<true/>
+			<key>Legacy</key>
+			<false/>
 			<key>Tool</key>
 			<true/>
 		</dict>
 		<key>ScreenResolution</key>
 		<string>3440x1440</string>
 		<key>Theme</key>
-		<string>clover-theme-oss</string>
+		<string>OSS</string>
 	</dict>
 	<key>Graphics</key>
 	<dict>
@@ -402,12 +406,12 @@
 			</dict>
 			<dict>
 				<key>Comment</key>
-				<string>USB 10.13.4+ by PMHeart</string>
+				<string>USB 10.13.6+ by PMHeart</string>
 				<key>Disabled</key>
 				<false/>
 				<key>Find</key>
 				<data>
-				g32UDw+DlwQAAA==
+				g32IDw+DpwQAAA==
 				</data>
 				<key>InfoPlistPatch</key>
 				<false/>
@@ -417,7 +421,7 @@
 				<string>com.apple.driver.usb.AppleUSBXHCI</string>
 				<key>Replace</key>
 				<data>
-				g32UD5CQkJCQkA==
+				g32ID5CQkJCQkA==
 				</data>
 			</dict>
 		</array>
@@ -444,7 +448,7 @@
 		<key>BoardManufacturer</key>
 		<string>Apple Inc.</string>
 		<key>BoardSerialNumber</key>
-		<string>XX-Masked-Insert-Yours-XX</string>
+		<string>C02LTWM4F8JCMB294</string>
 		<key>BoardType</key>
 		<integer>10</integer>
 		<key>BoardVersion</key>
@@ -472,9 +476,9 @@
 		<key>ProductName</key>
 		<string>iMac18,3</string>
 		<key>SerialNumber</key>
-		<string>XX-Masked-Insert-Yours-XX</string>
+		<string>>XX-Masked-Insert-Yours-XX</string>
 		<key>SmUUID</key>
-		<string>XX-Masked-Insert-Yours-XX</string>
+		<string>>XX-Masked-Insert-Yours-XX</string>
 		<key>Version</key>
 		<string>1.0</string>
 	</dict>
