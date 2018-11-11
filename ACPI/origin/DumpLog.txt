@@ -1,0 +1,147 @@
+13:344  1:994  Found BIOS RSDP at F05B0
+13:344  0:000  Printing ACPI tables from RSDP F05B0 ...
+13:344  0:000   F05B0: 'RSD PTR ', Rev: 0 (Acpi 1.0), Len: 20
+13:344  0:000    (Rsdt: B978A028)
+13:344  0:000    B978A028: 'RSDT', 'A M I', Rev: 1, Len: 124
+13:344  0:000    Tables in Rsdt: 22
+13:344  0:000    0. B978A190: 'FACP', 'A M I', Rev: 2, Len: 132
+13:344  0:000        (Dsdt: B978A218, Facs: B97FDEC0)
+13:344  0:000        B978A218: 'DSDT', 'A M I', Rev: 2, Len: 160292
+13:346  0:001        B97FDEC0: 'FACS', Ver: 0, Len: 64
+13:346  0:000    1. B97B1558: 'APIC', 'A M I', Rev: 3, Len: 244
+13:346  0:000    2. B97B1650: 'FPDT', 'A M I', Rev: 1, Len: 68
+13:346  0:000    3. B97B1698: 'FIDT', 'A M I', Rev: 1, Len: 156
+13:346  0:000    4. B97B1738: 'MCFG', 'A M I', Rev: 1, Len: 60
+13:346  0:000    5. B97B1778: 'SSDT', 'A M I', Rev: 1, Len: 931
+13:346  0:000    6. B97B1B20: 'SSDT', 'A M I', Rev: 1, Len: 29264
+13:346  0:000    7. B97B8D70: 'SSDT', 'A M I', Rev: 2, Len: 12630
+13:346  0:000    8. B97BBEC8: 'SSDT', 'A M I', Rev: 2, Len: 9745
+13:346  0:000    9. B97BE4E0: 'HPET', 'A M I', Rev: 1, Len: 56
+13:346  0:000    10. B97BE518: 'SSDT', 'A M I', Rev: 2, Len: 4514
+13:346  0:000    11. B97BF6C0: 'SSDT', 'A M I', Rev: 2, Len: 10967
+13:346  0:000    12. B97C2198: 'UEFI', 'A M I', Rev: 1, Len: 66
+13:346  0:000    13. B97C21E0: 'SSDT', 'A M I', Rev: 2, Len: 6062
+13:346  0:000    14. B97C3990: 'LPIT', 'A M I', Rev: 1, Len: 148
+13:346  0:000    15. B97C3A28: 'SSDT', 'A M I', Rev: 2, Len: 321
+13:346  0:000    16. B97C3B70: 'SSDT', 'A M I', Rev: 2, Len: 671
+13:346  0:000    17. B97C3E10: 'SSDT', 'A M I', Rev: 2, Len: 12290
+13:346  0:000    18. B97C6E18: 'SSDT', 'A M I', Rev: 2, Len: 1303
+13:346  0:000    19. B97C7330: 'DBGP', 'A M I', Rev: 1, Len: 52
+13:346  0:000    20. B97C7368: 'DBG2', 'A M I', Rev: 0, Len: 84
+13:346  0:000    21. B97C73C0: 'WSMT', 'A M I', Rev: 1, Len: 40
+13:346  0:000  Found UEFI Acpi 2.0 RSDP at B978A000
+13:346  0:000  Saving ACPI tables from RSDP B978A000 to EFI\CLOVER\ACPI\origin ...
+13:346  0:000   B978A000: 'RSD PTR ', Rev: 2 (Acpi 2.0 or newer), Len: 36
+13:346  0:000    (Xsdt: B978A0A8, Rsdt: B978A028)
+13:346  0:000    B978A0A8: 'XSDT', 'A M I', Rev: 1, Len: 212
+13:346  0:000    B978A028: 'RSDT', 'A M I', Rev: 1, Len: 124
+13:346  0:000    Tables in Xsdt: 22
+13:346  0:000    0. B97B1440: 'FACP', 'A M I', Rev: 6, Len: 276
+13:346  0:000        (Dsdt: B978A218, Facs: B97FDF00, XDsdt: B978A218, XFacs: 0)
+13:346  0:000        B978A218: 'DSDT', 'A M I', Rev: 2, Len: 160292
+13:347  0:001        B97FDF00: 'FACS', Ver: 2, Len: 64
+13:347  0:000    1. B97B1558: 'APIC', 'A M I', Rev: 3, Len: 244
+13:347  0:000    2. B97B1650: 'FPDT', 'A M I', Rev: 1, Len: 68
+13:347  0:000    3. B97B1698: 'FIDT', 'A M I', Rev: 1, Len: 156
+13:347  0:000    4. B97B1738: 'MCFG', 'A M I', Rev: 1, Len: 60
+13:347  0:000    5. B97B1778: 'SSDT', 'A M I', Rev: 1, Len: 931
+13:347  0:000    6. B97B1B20: 'SSDT', 'A M I', Rev: 1, Len: 29264
+13:347  0:000    7. B97B8D70: 'SSDT', 'A M I', Rev: 2, Len: 12630
+13:347  0:000    8. B97BBEC8: 'SSDT', 'A M I', Rev: 2, Len: 9745
+13:347  0:000    9. B97BE4E0: 'HPET', 'A M I', Rev: 1, Len: 56
+13:347  0:000    10. B97BE518: 'SSDT', 'A M I', Rev: 2, Len: 4514
+13:347  0:000    11. B97BF6C0: 'SSDT', 'A M I', Rev: 2, Len: 10967
+13:347  0:000    12. B97C2198: 'UEFI', 'A M I', Rev: 1, Len: 66
+13:347  0:000    13. B97C21E0: 'SSDT', 'A M I', Rev: 2, Len: 6062
+13:347  0:000    14. B97C3990: 'LPIT', 'A M I', Rev: 1, Len: 148
+13:347  0:000    15. B97C3A28: 'SSDT', 'A M I', Rev: 2, Len: 321
+13:347  0:000    16. B97C3B70: 'SSDT', 'A M I', Rev: 2, Len: 671
+13:347  0:000    17. B97C3E10: 'SSDT', 'A M I', Rev: 2, Len: 12290
+13:347  0:000    18. B97C6E18: 'SSDT', 'A M I', Rev: 2, Len: 1303
+13:347  0:000    19. B97C7330: 'DBGP', 'A M I', Rev: 1, Len: 52
+13:347  0:000    20. B97C7368: 'DBG2', 'A M I', Rev: 0, Len: 84
+13:347  0:000    21. B97C73C0: 'WSMT', 'A M I', Rev: 1, Len: 40
+13:347  0:000    Tables in Rsdt: 22
+13:347  0:000    0. B978A190: 'FACP', 'A M I', Rev: 2, Len: 132
+13:347  0:000        (Dsdt: B978A218, Facs: B97FDEC0)
+13:347  0:000        B978A218: 'DSDT', 'A M I', Rev: 2, Len: 160292
+13:349  0:001        B97FDEC0: 'FACS', Ver: 0, Len: 64
+13:349  0:000    1. B97B1558: 'APIC', 'A M I', Rev: 3, Len: 244
+13:349  0:000    2. B97B1650: 'FPDT', 'A M I', Rev: 1, Len: 68
+13:349  0:000    3. B97B1698: 'FIDT', 'A M I', Rev: 1, Len: 156
+13:349  0:000    4. B97B1738: 'MCFG', 'A M I', Rev: 1, Len: 60
+13:349  0:000    5. B97B1778: 'SSDT', 'A M I', Rev: 1, Len: 931
+13:349  0:000    6. B97B1B20: 'SSDT', 'A M I', Rev: 1, Len: 29264
+13:349  0:000    7. B97B8D70: 'SSDT', 'A M I', Rev: 2, Len: 12630
+13:349  0:000    8. B97BBEC8: 'SSDT', 'A M I', Rev: 2, Len: 9745
+13:349  0:000    9. B97BE4E0: 'HPET', 'A M I', Rev: 1, Len: 56
+13:349  0:000    10. B97BE518: 'SSDT', 'A M I', Rev: 2, Len: 4514
+13:349  0:000    11. B97BF6C0: 'SSDT', 'A M I', Rev: 2, Len: 10967
+13:349  0:000    12. B97C2198: 'UEFI', 'A M I', Rev: 1, Len: 66
+13:349  0:000    13. B97C21E0: 'SSDT', 'A M I', Rev: 2, Len: 6062
+13:349  0:000    14. B97C3990: 'LPIT', 'A M I', Rev: 1, Len: 148
+13:349  0:000    15. B97C3A28: 'SSDT', 'A M I', Rev: 2, Len: 321
+13:349  0:000    16. B97C3B70: 'SSDT', 'A M I', Rev: 2, Len: 671
+13:349  0:000    17. B97C3E10: 'SSDT', 'A M I', Rev: 2, Len: 12290
+13:349  0:000    18. B97C6E18: 'SSDT', 'A M I', Rev: 2, Len: 1303
+13:349  0:000    19. B97C7330: 'DBGP', 'A M I', Rev: 1, Len: 52
+13:349  0:000    20. B97C7368: 'DBG2', 'A M I', Rev: 0, Len: 84
+13:349  0:000    21. B97C73C0: 'WSMT', 'A M I', Rev: 1, Len: 40
+13:349  0:000  Found UEFI Acpi 1.0 RSDP at B978A000
+13:349  0:000  Printing ACPI tables from RSDP B978A000 ...
+13:349  0:000   B978A000: 'RSD PTR ', Rev: 2 (Acpi 2.0 or newer), Len: 36
+13:349  0:000    (Xsdt: B978A0A8, Rsdt: B978A028)
+13:349  0:000    B978A0A8: 'XSDT', 'A M I', Rev: 1, Len: 212
+13:349  0:000    B978A028: 'RSDT', 'A M I', Rev: 1, Len: 124
+13:349  0:000    Tables in Xsdt: 22
+13:349  0:000    0. B97B1440: 'FACP', 'A M I', Rev: 6, Len: 276
+13:349  0:000        (Dsdt: B978A218, Facs: B97FDF00, XDsdt: B978A218, XFacs: 0)
+13:349  0:000        B978A218: 'DSDT', 'A M I', Rev: 2, Len: 160292
+13:351  0:001        B97FDF00: 'FACS', Ver: 2, Len: 64
+13:351  0:000    1. B97B1558: 'APIC', 'A M I', Rev: 3, Len: 244
+13:351  0:000    2. B97B1650: 'FPDT', 'A M I', Rev: 1, Len: 68
+13:351  0:000    3. B97B1698: 'FIDT', 'A M I', Rev: 1, Len: 156
+13:351  0:000    4. B97B1738: 'MCFG', 'A M I', Rev: 1, Len: 60
+13:351  0:000    5. B97B1778: 'SSDT', 'A M I', Rev: 1, Len: 931
+13:351  0:000    6. B97B1B20: 'SSDT', 'A M I', Rev: 1, Len: 29264
+13:351  0:000    7. B97B8D70: 'SSDT', 'A M I', Rev: 2, Len: 12630
+13:351  0:000    8. B97BBEC8: 'SSDT', 'A M I', Rev: 2, Len: 9745
+13:351  0:000    9. B97BE4E0: 'HPET', 'A M I', Rev: 1, Len: 56
+13:351  0:000    10. B97BE518: 'SSDT', 'A M I', Rev: 2, Len: 4514
+13:351  0:000    11. B97BF6C0: 'SSDT', 'A M I', Rev: 2, Len: 10967
+13:351  0:000    12. B97C2198: 'UEFI', 'A M I', Rev: 1, Len: 66
+13:351  0:000    13. B97C21E0: 'SSDT', 'A M I', Rev: 2, Len: 6062
+13:351  0:000    14. B97C3990: 'LPIT', 'A M I', Rev: 1, Len: 148
+13:351  0:000    15. B97C3A28: 'SSDT', 'A M I', Rev: 2, Len: 321
+13:351  0:000    16. B97C3B70: 'SSDT', 'A M I', Rev: 2, Len: 671
+13:351  0:000    17. B97C3E10: 'SSDT', 'A M I', Rev: 2, Len: 12290
+13:351  0:000    18. B97C6E18: 'SSDT', 'A M I', Rev: 2, Len: 1303
+13:351  0:000    19. B97C7330: 'DBGP', 'A M I', Rev: 1, Len: 52
+13:351  0:000    20. B97C7368: 'DBG2', 'A M I', Rev: 0, Len: 84
+13:351  0:000    21. B97C73C0: 'WSMT', 'A M I', Rev: 1, Len: 40
+13:351  0:000    Tables in Rsdt: 22
+13:351  0:000    0. B978A190: 'FACP', 'A M I', Rev: 2, Len: 132
+13:351  0:000        (Dsdt: B978A218, Facs: B97FDEC0)
+13:351  0:000        B978A218: 'DSDT', 'A M I', Rev: 2, Len: 160292
+13:352  0:001        B97FDEC0: 'FACS', Ver: 0, Len: 64
+13:352  0:000    1. B97B1558: 'APIC', 'A M I', Rev: 3, Len: 244
+13:352  0:000    2. B97B1650: 'FPDT', 'A M I', Rev: 1, Len: 68
+13:352  0:000    3. B97B1698: 'FIDT', 'A M I', Rev: 1, Len: 156
+13:352  0:000    4. B97B1738: 'MCFG', 'A M I', Rev: 1, Len: 60
+13:352  0:000    5. B97B1778: 'SSDT', 'A M I', Rev: 1, Len: 931
+13:352  0:000    6. B97B1B20: 'SSDT', 'A M I', Rev: 1, Len: 29264
+13:352  0:000    7. B97B8D70: 'SSDT', 'A M I', Rev: 2, Len: 12630
+13:352  0:000    8. B97BBEC8: 'SSDT', 'A M I', Rev: 2, Len: 9745
+13:352  0:000    9. B97BE4E0: 'HPET', 'A M I', Rev: 1, Len: 56
+13:352  0:000    10. B97BE518: 'SSDT', 'A M I', Rev: 2, Len: 4514
+13:352  0:000    11. B97BF6C0: 'SSDT', 'A M I', Rev: 2, Len: 10967
+13:352  0:000    12. B97C2198: 'UEFI', 'A M I', Rev: 1, Len: 66
+13:352  0:000    13. B97C21E0: 'SSDT', 'A M I', Rev: 2, Len: 6062
+13:352  0:000    14. B97C3990: 'LPIT', 'A M I', Rev: 1, Len: 148
+13:352  0:000    15. B97C3A28: 'SSDT', 'A M I', Rev: 2, Len: 321
+13:352  0:000    16. B97C3B70: 'SSDT', 'A M I', Rev: 2, Len: 671
+13:352  0:000    17. B97C3E10: 'SSDT', 'A M I', Rev: 2, Len: 12290
+13:352  0:000    18. B97C6E18: 'SSDT', 'A M I', Rev: 2, Len: 1303
+13:352  0:000    19. B97C7330: 'DBGP', 'A M I', Rev: 1, Len: 52
+13:352  0:000    20. B97C7368: 'DBG2', 'A M I', Rev: 0, Len: 84
+13:352  0:000    21. B97C73C0: 'WSMT', 'A M I', Rev: 1, Len: 40
