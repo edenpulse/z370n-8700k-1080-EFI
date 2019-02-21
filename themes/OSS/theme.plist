@@ -44,8 +44,6 @@
 			<false/>
 			<key>Revision</key>
 			<false/>
-			<key>Functions</key>
-  			<true/>
 		</dict>
 		<key>Font</key>
 		<dict>
@@ -69,7 +67,7 @@
 			<key>TextOffset</key>
 			<integer>-1256</integer>
 			<key>TileXSpace</key>
-			<integer>200</integer>
+			<integer>0</integer>
 			<key>TileYSpace</key>
 			<integer>24</integer>
 		</dict>
